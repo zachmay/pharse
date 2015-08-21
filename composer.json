@@ -1,0 +1,22 @@
+{
+    "name": "sector42/pharse",
+    "type": "library",
+    "description": "Pharse: recursive descent, object-oriented parsing combinators",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zachary May",
+            "email": "zach@sector42.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {"Sector42\\Pharse\\": "src/"}
+    }
+}
